@@ -1,0 +1,277 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ip-172-31-28-61.ec2.internal (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas -bb 1000 -nt 2
+Seed:    219686 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep 26 18:53:38 2024
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas ... Fasta format detected
+Reading fasta file: done in 0.00121198 secs
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 50 sequences with 1348 columns, 810 distinct patterns
+371 parsimony-informative, 199 singleton sites, 778 constant sites
+WARNING: Some sequence names are changed as follows:
+G.aculeatus_zgc:113516_ethanolamine_kinase_1 -> G.aculeatus_zgc_113516_ethanolamine_kinase_1
+S.salar_zgc:113516_uncharacterized_protein_LOC100196783 -> S.salar_zgc_113516_uncharacterized_protein_LOC100196783
+
+                                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.2887e-05 secs
+   1  C.carcharias_LOC121282821_ethanolamine_kinase_1like              65.36%    passed     45.76%
+   2  C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1   54.38%    passed      7.06%
+   3  E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2                71.36%    passed     27.09%
+   4  F.catus_ETNK2_ethanolamine_kinase_2                              71.36%    passed     73.83%
+   5  G.aculeatus_zgc_113516_ethanolamine_kinase_1                     73.00%    passed     99.92%
+   6  S.salar_zgc_113516_uncharacterized_protein_LOC100196783          73.29%    passed     90.66%
+   7  C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1                   74.04%    passed     98.51%
+   8  G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1                  71.07%    passed     59.58%
+   9  S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1               68.84%    passed     99.47%
+  10  X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1                68.92%    passed     92.59%
+  11  H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A                  73.07%    passed     78.57%
+  12  E.caballus_ETNK1_ethanolamine_kinase_1                           73.07%    passed     81.43%
+  13  F.catus_ETNK1_ethanolamine_kinase_1                              73.07%    passed     79.77%
+  14  C.mydas_ETNK1_ethanolamine_kinase_1                              73.07%    passed     92.02%
+  15  G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1                  73.07%    passed     95.79%
+  16  S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3        71.66%    passed     95.19%
+  17  S.townsendi_ETNK1_ethanolamine_kinase_1                          72.63%    passed     91.32%
+  18  S.salar_LOC106583121_ethanolamine_kinase_1like                   71.88%    passed     74.45%
+  19  S.salar_LOC106565623_ethanolamine_kinase_1like                   71.88%    passed     90.45%
+  20  D.rerio_etnk2_ethanolamine_kinase_2                              73.29%    passed     86.66%
+  21  S.salar_LOC106609326_ethanolamine_kinase_1                       73.29%    passed     97.10%
+  22  G.aculeatus_etnk1_ethanolamine_kinase_1                          73.29%    passed     46.14%
+  23  C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2              73.29%    passed     27.80%
+  24  G.aculeatus_etnk2_ethanolamine_kinase_2                          73.29%    passed     90.24%
+  25  D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1                   73.29%    passed     90.81%
+  26  X.laevis_etnk1.S_ethanolamine_kinase_1                           73.29%    passed     90.25%
+  27  E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3            65.21%    failed      0.00%
+  28  H.sapiens_CHKA_choline_kinase_alpha_isoform_b                    64.84%    failed      0.42%
+  29  D.rerio_chkb_cholineethanolamine_kinase                          66.54%    passed     28.70%
+  30  X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2            66.39%    passed     26.58%
+  31  X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2            66.39%    failed      0.60%
+  32  F.catus_CHKB_cholineethanolamine_kinase_isoform_X2               70.70%    passed     55.92%
+  33  H.sapiens_CHKB_cholineethanolamine_kinase                        70.70%    passed     39.60%
+  34  G.aculeatus_chkb_cholineethanolamine_kinase                      63.72%    passed     64.76%
+  35  S.salar_LOC123728132_cholineethanolamine_kinaselike              67.58%    passed     95.18%
+  36  S.salar_LOC106561237_cholineethanolamine_kinase                  67.58%    passed     95.18%
+  37  X.laevis_chka.L_choline_kinase_alpha                             68.77%    passed     27.78%
+  38  C.carcharias_chka_choline_kinase_alpha_isoform_X1                69.21%    passed     32.91%
+  39  G.aculeatus_chka_choline_kinase_alpha                            68.92%    passed     70.16%
+  40  D.rerio_chka_choline_kinase_alpha_isoform_X1                     70.33%    passed     86.27%
+  41  S.salar_chka_choline_kinase_alpha_isoform_X1                     68.99%    passed     74.62%
+  42  S.salar_LOC106560813_choline_kinase_alpha_isoform_X2             68.99%    passed     59.68%
+  43  C.mydas_CHKA_choline_kinase_alpha                                66.91%    passed     33.72%
+  44  G.gallus_CHKA_choline_kinase_alpha_isoform_X4                    66.47%    passed     11.44%
+  45  S.townsendi_CHKA_choline_kinase_alpha                            66.10%    passed     20.73%
+  46  C.carcharias_chkb_cholineethanolamine_kinase                     68.92%    passed     91.39%
+  47  C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1               71.74%    passed     83.57%
+  48  S.townsendi_CHKB_cholineethanolamine_kinase                      71.66%    failed      3.38%
+  49  E.caballus_CHKA_choline_kinase_alpha_isoform_X4                  65.28%    failed      0.01%
+  50  F.catus_CHKA_choline_kinase_alpha_isoform_X8                     63.20%    failed      0.01%
+WARNING: 50 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                            69.66%  6 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: S.salar_LOC106561237_cholineethanolamine_kinase is identical to S.salar_LOC123728132_cholineethanolamine_kinaselike but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -20692.410
+2. Current log-likelihood: -20690.126
+Optimal log-likelihood: -20689.165
+Proportion of invariable sites: 0.067
+Gamma shape alpha: 1.170
+Parameters optimization took 2 rounds (0.728 sec)
+Time for fast ML tree search: 3.148 seconds
+
+NOTE: ModelFinder requires 67 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 1348 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            21596.056    97  43386.112    43401.321    43891.130
+  2  LG+I          21348.813    98  42893.627    42909.162    43403.852
+  3  LG+G4         20701.041    98  41598.082    41613.618    42108.307
+  4  LG+I+G4       20688.348    99  41574.697    41590.562    42090.128
+  5  LG+R2         20792.533    99  41783.067    41798.932    42298.498
+  6  LG+R3         20717.626    101 41637.252    41653.788    42163.096
+  7  LG+R4         20687.553    103 41581.107    41598.328    42117.363
+  8  LG+R5         20675.769    105 41561.539    41579.462    42108.208
+  9  LG+R6         20674.516    107 41563.031    41581.670    42120.114
+ 14  LG+I+R2       20743.428    100 41686.856    41703.055    42207.493
+ 15  LG+I+R3       20691.647    102 41587.295    41604.172    42118.345
+ 16  LG+I+R4       20680.324    104 41568.648    41586.218    42110.111
+ 17  LG+I+R5       20673.725    106 41559.451    41577.730    42111.327
+ 26  LG+F+I+G4     20654.360    118 41544.719    41567.570    42159.072
+ 48  WAG+I+G4      20662.163    99  41522.325    41538.191    42037.757
+ 70  WAG+F+I+G4    20664.443    118 41564.886    41587.737    42179.238
+ 92  JTT+I+G4      20561.062    99  41320.123    41335.989    41835.555
+114  JTT+F+I+G4    20564.696    118 41365.393    41388.244    41979.746
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+136  Q.pfam+I+G4   20657.423    99  41512.846    41528.711    42028.277
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+158  Q.pfam+F+I+G4 20643.053    118 41522.106    41544.957    42136.459
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+180  Q.bird+I+G4   20746.616    99  41691.233    41707.098    42206.664
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+202  Q.bird+F+I+G4 20803.542    118 41843.085    41865.936    42457.437
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+224  Q.mammal+I+G4 20643.888    99  41485.775    41501.641    42001.207
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+246  Q.mammal+F+I+G4 20715.072    118 41666.144    41688.995    42280.496
+268  Q.insect+I+G4 20715.539    99  41629.078    41644.944    42144.510
+290  Q.insect+F+I+G4 20596.599    118 41429.198    41452.049    42043.550
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+312  Q.plant+I+G4  20665.927    99  41529.854    41545.719    42045.285
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+334  Q.plant+F+I+G4 20633.666    118 41503.332    41526.183    42117.684
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+356  Q.yeast+I+G4  20833.334    99  41864.668    41880.533    42380.099
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+378  Q.yeast+F+I+G4 20624.229    118 41484.459    41507.310    42098.811
+400  JTTDCMut+I+G4 20564.349    99  41326.698    41342.564    41842.130
+422  JTTDCMut+F+I+G4 20569.005    118 41374.010    41396.861    41988.363
+444  DCMut+I+G4    20804.083    99  41806.167    41822.032    42321.598
+466  DCMut+F+I+G4  20752.627    118 41741.254    41764.105    42355.607
+488  VT+I+G4       20693.180    99  41584.360    41600.225    42099.791
+510  VT+F+I+G4     20691.653    118 41619.306    41642.157    42233.659
+532  PMB+I+G4      20861.290    99  41920.580    41936.446    42436.012
+554  PMB+F+I+G4    20892.546    118 42021.091    42043.942    42635.444
+576  Blosum62+I+G4 20918.974    99  42035.949    42051.814    42551.380
+598  Blosum62+F+I+G4 20909.507    118 42055.013    42077.864    42669.366
+620  Dayhoff+I+G4  20803.280    99  41804.560    41820.425    42319.991
+642  Dayhoff+F+I+G4 20751.823    118 41739.645    41762.496    42353.998
+664  mtREV+I+G4    21892.573    99  43983.147    43999.012    44498.578
+686  mtREV+F+I+G4  21000.079    118 42236.157    42259.008    42850.510
+708  mtART+I+G4    22323.553    99  44845.106    44860.972    45360.538
+730  mtART+F+I+G4  21364.986    118 42965.973    42988.824    43580.326
+752  mtZOA+I+G4    21713.341    99  43624.682    43640.547    44140.113
+774  mtZOA+F+I+G4  21003.554    118 42243.107    42265.958    42857.460
+796  mtMet+I+G4    21918.710    99  44035.420    44051.286    44550.852
+818  mtMet+F+I+G4  20866.963    118 41969.925    41992.776    42584.278
+840  mtVer+I+G4    21998.808    99  44195.616    44211.481    44711.047
+862  mtVer+F+I+G4  21095.078    118 42426.156    42449.007    43040.508
+884  mtInv+I+G4    22121.289    99  44440.579    44456.444    44956.010
+906  mtInv+F+I+G4  20800.014    118 41836.029    41858.880    42450.381
+928  mtMAM+I+G4    22351.711    99  44901.422    44917.287    45416.853
+950  mtMAM+F+I+G4  21401.989    118 43039.977    43062.828    43654.330
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+972  FLAVI+I+G4    21414.572    99  43027.143    43043.009    43542.575
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+994  FLAVI+F+I+G4  21297.627    118 42831.254    42854.105    43445.606
+1016  HIVb+I+G4     21001.026    99  42200.051    42215.917    42715.483
+1038  HIVb+F+I+G4   20933.958    118 42103.917    42126.768    42718.269
+1060  HIVw+I+G4     21809.759    99  43817.517    43833.383    44332.949
+1082  HIVw+F+I+G4   21376.501    118 42989.002    43011.853    43603.354
+1104  FLU+I+G4      21102.413    99  42402.827    42418.692    42918.258
+1126  FLU+F+I+G4    20938.373    118 42112.746    42135.597    42727.098
+1148  rtREV+I+G4    20870.679    99  41939.359    41955.224    42454.790
+1170  rtREV+F+I+G4  20759.420    118 41754.839    41777.690    42369.192
+1192  cpREV+I+G4    20851.967    99  41901.935    41917.800    42417.366
+1214  cpREV+F+I+G4  20803.210    118 41842.420    41865.271    42456.773
+Akaike Information Criterion:           JTT+I+G4
+Corrected Akaike Information Criterion: JTT+I+G4
+Bayesian Information Criterion:         JTT+I+G4
+Best-fit model: JTT+I+G4 chosen according to BIC
+
+All model information printed to /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.model.gz
+CPU time for ModelFinder: 369.709 seconds (0h:6m:9s)
+Wall-clock time for ModelFinder: 186.815 seconds (0h:3m:6s)
+Generating 1000 samples for ultrafast bootstrap (seed: 219686)...
+
+NOTE: 28 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.184 / Estimate: 0.000, 0.973 / LogL: -20577.061
+Init pinv, alpha: 0.064, 1.184 / Estimate: 0.058, 1.322 / LogL: -20561.112
+Init pinv, alpha: 0.128, 1.184 / Estimate: 0.058, 1.324 / LogL: -20561.119
+Init pinv, alpha: 0.192, 1.184 / Estimate: 0.057, 1.321 / LogL: -20561.084
+Init pinv, alpha: 0.257, 1.184 / Estimate: 0.058, 1.323 / LogL: -20561.115
+Init pinv, alpha: 0.321, 1.184 / Estimate: 0.058, 1.321 / LogL: -20561.093
+Init pinv, alpha: 0.385, 1.184 / Estimate: 0.058, 1.323 / LogL: -20561.110
+Init pinv, alpha: 0.449, 1.184 / Estimate: 0.059, 1.324 / LogL: -20561.129
+Init pinv, alpha: 0.513, 1.184 / Estimate: 0.057, 1.321 / LogL: -20561.094
+Init pinv, alpha: 0.577, 1.184 / Estimate: 0.058, 1.322 / LogL: -20561.103
+Optimal pinv,alpha: 0.057, 1.321 / LogL: -20561.084
+
+Parameters optimization took 29.888 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.181216 secs using 198.3% CPU
+Computing ML distances took 0.182793 sec (of wall-clock time) 0.359722 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000144043 secs using 99.28% CPU
+Computing RapidNJ tree took 0.000670 sec (of wall-clock time) 0.000670 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -20735.619
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.476 second
+Computing log-likelihood of 98 initial trees ... 8.396 seconds
+Current best score: -20561.084
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -20561.060
+Iteration 10 / LogL: -20561.232 / Time: 0h:4m:0s
+Iteration 20 / LogL: -20561.229 / Time: 0h:4m:15s
+Finish initializing candidate tree set (2)
+Current best tree score: -20561.060 / CPU time: 37.361
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -20592.082 / Time: 0h:4m:30s (0h:3m:25s left)
+Iteration 40 / LogL: -20561.279 / Time: 0h:4m:46s (0h:2m:36s left)
+Iteration 50 / LogL: -20561.509 / Time: 0h:5m:1s (0h:1m:59s left)
+Log-likelihood cutoff on original alignment: -20593.975
+Iteration 60 / LogL: -20561.710 / Time: 0h:5m:17s (0h:1m:31s left)
+Iteration 70 / LogL: -20566.015 / Time: 0h:5m:33s (0h:1m:6s left)
+Iteration 80 / LogL: -20562.126 / Time: 0h:5m:50s (0h:0m:43s left)
+Iteration 90 / LogL: -20561.337 / Time: 0h:6m:7s (0h:0m:22s left)
+Iteration 100 / LogL: -20561.196 / Time: 0h:6m:22s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -20593.975
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:6m:26s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -20561.060
+2. Current log-likelihood: -20561.049
+Optimal log-likelihood: -20561.043
+Proportion of invariable sites: 0.055
+Gamma shape alpha: 1.316
+Parameters optimization took 2 rounds (0.492 sec)
+BEST SCORE FOUND : -20561.043
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.splits.nex
+Total tree length: 16.500
+
+Total number of iterations: 102
+CPU time used for tree search: 333.439 sec (0h:5m:33s)
+Wall-clock time used for tree search: 169.181 sec (0h:2m:49s)
+Total CPU time used: 765.315 sec (0h:12m:45s)
+Total wall-clock time used: 387.523 sec (0h:6m:27s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.splits.nex...
+50 taxa and 188 splits.
+Consensus tree written to /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.contree
+Reading input trees file /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.contree
+Log-likelihood of consensus tree: -20561.110
+
+Analysis results written to: 
+  IQ-TREE report:                /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.iqtree
+  Maximum-likelihood tree:       /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.treefile
+  Likelihood distances:          /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.splits.nex
+  Consensus tree:                /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.contree
+  Screen log file:               /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.log
+
+Date and Time: Thu Sep 26 19:00:07 2024

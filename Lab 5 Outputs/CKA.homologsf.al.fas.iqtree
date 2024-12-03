@@ -1,0 +1,402 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 219686
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 50 sequences with 1348 amino-acid sites
+Number of constant sites: 778 (= 57.7151% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 778 (= 57.7151% of all sites)
+Number of parsimony informative sites: 371
+Number of distinct site patterns: 810
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+I+G4         -20561.062   41320.123 +    0.964   41335.989 +    0.964   41835.555 +    0.964
+JTTDCMut+I+G4    -20564.349   41326.698 -    0.036   41342.564 -    0.036   41842.130 -    0.036
+JTT+F+I+G4       -20564.696   41365.393 - 1.43e-10   41388.244 - 4.33e-12   41979.746 - 4.71e-32
+JTTDCMut+F+I+G4  -20569.005   41374.010 - 1.92e-12   41396.861 - 5.83e-14   41988.363 - 6.34e-34
+Q.mammal+I+G4    -20643.888   41485.775 - 1.03e-36   41501.641 - 1.03e-36   42001.207 - 1.03e-36
+Q.pfam+I+G4      -20657.423   41512.846 - 1.36e-42   41528.711 - 1.36e-42   42028.277 - 1.36e-42
+WAG+I+G4         -20662.163   41522.325 - 1.19e-44   41538.191 - 1.19e-44   42037.757 - 1.19e-44
+Q.insect+F+I+G4  -20596.599   41429.198 - 1.99e-24   41452.049 - 6.05e-26   42043.550 - 6.58e-46
+Q.plant+I+G4     -20665.927   41529.854 - 2.76e-46   41545.719 - 2.76e-46   42045.285 - 2.76e-46
+LG+I+G4          -20688.348   41574.697 - 5.06e-56   41590.562 - 5.06e-56   42090.128 - 5.06e-56
+Q.yeast+F+I+G4   -20624.229   41484.459 - 1.99e-36   41507.310 - 6.06e-38   42098.811 - 6.59e-58
+VT+I+G4          -20693.180   41584.360 - 4.03e-58   41600.225 - 4.03e-58   42099.791 - 4.03e-58
+LG+R5            -20675.769   41561.539 - 3.64e-53   41579.462 -  1.3e-53   42108.208 -    6e-60
+LG+G4            -20701.041   41598.082 - 4.23e-61   41613.618 - 4.98e-61   42108.307 - 5.71e-60
+LG+I+R4          -20680.324   41568.648 - 1.04e-54   41586.218 - 4.44e-55   42110.111 - 2.32e-60
+LG+I+R5          -20673.725   41559.451 - 1.03e-52   41577.730 -  3.1e-53   42111.327 - 1.26e-60
+LG+R4            -20687.553   41581.107 - 2.05e-57   41598.328 - 1.04e-57   42117.363 - 6.17e-62
+Q.plant+F+I+G4   -20633.666   41503.332 - 1.59e-40   41526.183 - 4.83e-42   42117.684 - 5.25e-62
+LG+I+R3          -20691.647   41587.295 -  9.3e-59   41604.172 - 5.61e-59   42118.345 - 3.77e-62
+LG+R6            -20674.516   41563.031 - 1.73e-53   41581.670 - 4.32e-54   42120.114 - 1.56e-62
+Q.pfam+F+I+G4    -20643.053   41522.106 - 1.33e-44   41544.957 - 4.05e-46   42136.459 -  4.4e-66
+Q.insect+I+G4    -20715.539   41629.078 - 7.86e-68   41644.944 - 7.86e-68   42144.510 - 7.86e-68
+LG+F+I+G4        -20654.360   41544.719 - 1.64e-49   41567.570 - 4.97e-51   42159.072 - 5.41e-71
+LG+R3            -20717.626   41637.252 - 1.32e-69   41653.788 - 9.43e-70   42163.096 - 7.23e-72
+WAG+F+I+G4       -20664.443   41564.886 - 6.83e-54   41587.737 - 2.08e-55   42179.238 - 2.26e-75
+Q.bird+I+G4      -20746.616   41691.233 -  2.5e-81   41707.098 -  2.5e-81   42206.664 -  2.5e-81
+LG+I+R2          -20743.428   41686.856 - 2.23e-80   41703.055 - 1.89e-80   42207.493 - 1.65e-81
+VT+F+I+G4        -20691.653   41619.306 - 1.04e-65   41642.157 - 3.16e-67   42233.659 - 3.44e-87
+Q.mammal+F+I+G4  -20715.072   41666.144 - 7.02e-76   41688.995 - 2.14e-77   42280.496 - 2.32e-97
+LG+R2            -20792.533   41783.067 - 2.87e-101   41798.932 - 2.87e-101   42298.498 - 2.87e-101
+Dayhoff+I+G4     -20803.280   41804.560 - 6.17e-106   41820.425 - 6.17e-106   42319.991 - 6.17e-106
+DCMut+I+G4       -20804.083   41806.167 - 2.76e-106   41822.032 - 2.76e-106   42321.598 - 2.76e-106
+Dayhoff+F+I+G4   -20751.823   41739.645 - 7.69e-92   41762.496 - 2.34e-93   42353.998 - 2.54e-113
+DCMut+F+I+G4     -20752.627   41741.254 - 3.44e-92   41764.105 - 1.05e-93   42355.607 - 1.14e-113
+rtREV+F+I+G4     -20759.420   41754.839 - 3.86e-95   41777.690 - 1.17e-96   42369.192 - 1.28e-116
+Q.yeast+I+G4     -20833.334   41864.668 - 5.47e-119   41880.533 - 5.47e-119   42380.099 - 5.47e-119
+cpREV+I+G4       -20851.967   41901.935 - 4.42e-127   41917.800 - 4.42e-127   42417.366 - 4.42e-127
+PMB+I+G4         -20861.290   41920.580 - 3.95e-131   41936.446 - 3.95e-131   42436.012 - 3.95e-131
+mtInv+F+I+G4     -20800.014   41836.029 - 9.05e-113   41858.880 - 2.75e-114   42450.381 - 2.99e-134
+rtREV+I+G4       -20870.679   41939.359 - 3.3e-135   41955.224 - 3.3e-135   42454.790 - 3.3e-135
+cpREV+F+I+G4     -20803.210   41842.420 - 3.7e-114   41865.271 - 1.13e-115   42456.773 - 1.23e-135
+Q.bird+F+I+G4    -20803.542   41843.085 - 2.66e-114   41865.936 - 8.08e-116   42457.437 - 8.79e-136
+Blosum62+I+G4    -20918.974   42035.949 - 3.5e-156   42051.814 - 3.5e-156   42551.380 - 3.5e-156
+mtMet+F+I+G4     -20866.963   41969.925 - 7.61e-142   41992.776 - 2.31e-143   42584.278 - 2.52e-163
+PMB+F+I+G4       -20892.546   42021.091 - 5.9e-153   42043.942 - 1.79e-154   42635.444 - 1.95e-174
+Blosum62+F+I+G4  -20909.507   42055.013 - 2.54e-160   42077.864 - 7.72e-162   42669.366 - 8.4e-182
+HIVb+I+G4        -21001.026   42200.051 - 8.13e-192   42215.917 - 8.13e-192   42715.483 - 8.13e-192
+HIVb+F+I+G4      -20933.958   42103.917 - 6.1e-171   42126.768 - 1.86e-172   42718.269 - 2.02e-192
+FLU+F+I+G4       -20938.373   42112.746 - 7.38e-173   42135.597 - 2.25e-174   42727.098 - 2.44e-194
+mtREV+F+I+G4     -21000.079   42236.157 - 1.17e-199   42259.008 - 3.57e-201   42850.510 - 3.88e-221
+mtZOA+F+I+G4     -21003.554   42243.107 - 3.64e-201   42265.958 - 1.11e-202   42857.460 - 1.2e-222
+FLU+I+G4         -21102.413   42402.827 - 7.55e-236   42418.692 - 7.55e-236   42918.258 - 7.55e-236
+mtVer+F+I+G4     -21095.078   42426.156 - 6.49e-241   42449.007 - 1.97e-242   43040.508 - 2.15e-262
+LG+I             -21348.813   42893.627 -        0   42909.162 -        0   43403.852 -        0
+FLAVI+F+I+G4     -21297.627   42831.254 -        0   42854.105 -        0   43445.606 -        0
+FLAVI+I+G4       -21414.572   43027.143 -        0   43043.009 -        0   43542.575 -        0
+mtART+F+I+G4     -21364.986   42965.973 -        0   42988.824 -        0   43580.326 -        0
+HIVw+F+I+G4      -21376.501   42989.002 -        0   43011.853 -        0   43603.354 -        0
+mtMAM+F+I+G4     -21401.989   43039.977 -        0   43062.828 -        0   43654.330 -        0
+LG               -21596.056   43386.111 -        0   43401.321 -        0   43891.130 -        0
+mtZOA+I+G4       -21713.341   43624.682 -        0   43640.547 -        0   44140.113 -        0
+HIVw+I+G4        -21809.759   43817.517 -        0   43833.383 -        0   44332.949 -        0
+mtREV+I+G4       -21892.573   43983.147 -        0   43999.012 -        0   44498.578 -        0
+mtMet+I+G4       -21918.710   44035.420 -        0   44051.286 -        0   44550.852 -        0
+mtVer+I+G4       -21998.808   44195.616 -        0   44211.481 -        0   44711.047 -        0
+mtInv+I+G4       -22121.289   44440.579 -        0   44456.444 -        0   44956.010 -        0
+mtART+I+G4       -22323.553   44845.106 -        0   44860.972 -        0   45360.538 -        0
+mtMAM+I+G4       -22351.711   44901.422 -        0   44917.287 -        0   45416.853 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0549
+Gamma shape alpha: 1.3159
+
+ Category  Relative_rate  Proportion
+  0         0              0.0549
+  1         0.2068         0.2363
+  2         0.5870         0.2363
+  3         1.0978         0.2363
+  4         2.3410         0.2363
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20561.0431 (s.e. 791.7330)
+Unconstrained log-likelihood (without tree): -8475.3583
+Number of free parameters (#branches + #model parameters): 99
+Akaike information criterion (AIC) score: 41320.0862
+Corrected Akaike information criterion (AICc) score: 41335.9516
+Bayesian information criterion (BIC) score: 41835.5176
+
+Total tree length (sum of branch lengths): 16.4995
+Sum of internal branch lengths: 9.3159 (56.4615% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'C.carcharias_LOC121282821_ethanolamine_kinase_1like' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----C.carcharias_LOC121282821_ethanolamine_kinase_1like
+|
+|        +----C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1
+|     +--| (79)
+|     |  |        +--S.salar_LOC106583121_ethanolamine_kinase_1like
+|     |  |     +--| (99)
+|     |  |     |  +--S.salar_LOC106565623_ethanolamine_kinase_1like
+|     |  |  +--| (95)
+|     |  |  |  +--G.aculeatus_etnk2_ethanolamine_kinase_2
+|     |  +--| (97)
+|     |     +--D.rerio_etnk2_ethanolamine_kinase_2
+|  +--| (64)
+|  |  |           +--X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1
+|  |  |        +--| (100)
+|  |  |        |  +--X.laevis_etnk1.S_ethanolamine_kinase_1
+|  |  |     +--| (100)
+|  |  |     |  |              +--H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A
+|  |  |     |  |           +--| (99)
+|  |  |     |  |           |  +--F.catus_ETNK1_ethanolamine_kinase_1
+|  |  |     |  |        +--| (100)
+|  |  |     |  |        |  +--E.caballus_ETNK1_ethanolamine_kinase_1
+|  |  |     |  |     +--| (55)
+|  |  |     |  |     |  +--C.mydas_ETNK1_ethanolamine_kinase_1
+|  |  |     |  |  +--| (54)
+|  |  |     |  |  |  +--G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1
+|  |  |     |  +--| (91)
+|  |  |     |     +--S.townsendi_ETNK1_ethanolamine_kinase_1
+|  |  |  +--| (94)
+|  |  |  |  |        +--S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3
+|  |  |  |  |     +--| (100)
+|  |  |  |  |     |  +**S.salar_LOC106609326_ethanolamine_kinase_1
+|  |  |  |  |  +--| (100)
+|  |  |  |  |  |  +--G.aculeatus_etnk1_ethanolamine_kinase_1
+|  |  |  |  +--| (99)
+|  |  |  |     +--D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1
+|  |  +--| (93)
+|  |     +--C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2
++--| (66)
+|  |     +--E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2
+|  |  +--| (100)
+|  |  |  +--F.catus_ETNK2_ethanolamine_kinase_2
+|  +--| (99)
+|     |  +--C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1
+|     +--| (94)
+|        |  +--G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1
+|        +--| (56)
+|           +--S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1
+|
+|       +--G.aculeatus_zgc_113516_ethanolamine_kinase_1
+|  +----| (100)
+|  |    +--S.salar_zgc_113516_uncharacterized_protein_LOC100196783
++--| (44)
+   |                                                 +--E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3
+   |                                              +--| (97)
+   |                                              |  +--H.sapiens_CHKB_cholineethanolamine_kinase
+   |                                         +----| (100)
+   |                                         |    +--F.catus_CHKB_cholineethanolamine_kinase_isoform_X2
+   |                                     +---| (95)
+   |                                     |   |                     +--H.sapiens_CHKA_choline_kinase_alpha_isoform_b
+   |                                     |   |                  +--| (100)
+   |                                     |   |                  |  |  +--E.caballus_CHKA_choline_kinase_alpha_isoform_X4
+   |                                     |   |                  |  +--| (100)
+   |                                     |   |                  |     +--F.catus_CHKA_choline_kinase_alpha_isoform_X8
+   |                                     |   |               +--| (100)
+   |                                     |   |               |  |     +--C.mydas_CHKA_choline_kinase_alpha
+   |                                     |   |               |  |  +--| (90)
+   |                                     |   |               |  |  |  +--G.gallus_CHKA_choline_kinase_alpha_isoform_X4
+   |                                     |   |               |  +--| (99)
+   |                                     |   |               |     +--S.townsendi_CHKA_choline_kinase_alpha
+   |                                     |   |            +--| (98)
+   |                                     |   |            |  +--X.laevis_chka.L_choline_kinase_alpha
+   |                                     |   |        +---| (100)
+   |                                     |   |        |   |  +---C.carcharias_chka_choline_kinase_alpha_isoform_X1
+   |                                     |   |        |   +--| (74)
+   |                                     |   |        |      |  +--G.aculeatus_chka_choline_kinase_alpha
+   |                                     |   |        |      +--| (100)
+   |                                     |   |        |         |  +--D.rerio_chka_choline_kinase_alpha_isoform_X1
+   |                                     |   |        |         +--| (84)
+   |                                     |   |        |            |  +--S.salar_chka_choline_kinase_alpha_isoform_X1
+   |                                     |   |        |            +--| (100)
+   |                                     |   |        |               +--S.salar_LOC106560813_choline_kinase_alpha_isoform_X2
+   |                                     |   |     +--| (78)
+   |                                     |   |     |  |  +--D.rerio_chkb_cholineethanolamine_kinase
+   |                                     |   |     |  +--| (100)
+   |                                     |   |     |     |  +--G.aculeatus_chkb_cholineethanolamine_kinase
+   |                                     |   |     |     +--| (98)
+   |                                     |   |     |        |  +**S.salar_LOC123728132_cholineethanolamine_kinaselike
+   |                                     |   |     |        +--| (100)
+   |                                     |   |     |           +**S.salar_LOC106561237_cholineethanolamine_kinase
+   |                                     |   |  +--| (95)
+   |                                     |   |  |  +--C.carcharias_chkb_cholineethanolamine_kinase
+   |                                     |   +--| (87)
+   |                                     |      |  +--C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1
+   |                                     |      +--| (88)
+   |                                     |         +--S.townsendi_CHKB_cholineethanolamine_kinase
+   +-------------------------------------| (100)
+                                         |  +--X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2
+                                         +--| (70)
+                                            +--X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2
+
+Tree in newick format:
+
+(C.carcharias_LOC121282821_ethanolamine_kinase_1like:0.5394426200,(((C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1:0.4466411734,(((S.salar_LOC106583121_ethanolamine_kinase_1like:0.0362262441,S.salar_LOC106565623_ethanolamine_kinase_1like:0.0156717432)99:0.0386067086,G.aculeatus_etnk2_ethanolamine_kinase_2:0.1039567910)95:0.0265569903,D.rerio_etnk2_ethanolamine_kinase_2:0.0761896809)97:0.1466166236)79:0.1244679148,((((X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1:0.0477789500,X.laevis_etnk1.S_ethanolamine_kinase_1:0.0437693439)100:0.1553236980,(((((H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A:0.0206785585,F.catus_ETNK1_ethanolamine_kinase_1:0.0103713430)99:0.0059962044,E.caballus_ETNK1_ethanolamine_kinase_1:0.0042735489)100:0.1097409175,C.mydas_ETNK1_ethanolamine_kinase_1:0.0316699646)55:0.0130400239,G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1:0.0665515572)54:0.0159104896,S.townsendi_ETNK1_ethanolamine_kinase_1:0.1054252568)91:0.0507736566)100:0.1554714856,(((S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3:0.0111016535,S.salar_LOC106609326_ethanolamine_kinase_1:0.0000026256)100:0.0732419253,G.aculeatus_etnk1_ethanolamine_kinase_1:0.1068663192)100:0.1204123505,D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1:0.1243504238)99:0.1972569674)94:0.0513830529,C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2:0.2759496323)93:0.1150382059)64:0.0781341368,((E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2:0.0403169800,F.catus_ETNK2_ethanolamine_kinase_2:0.0631388688)100:0.2819550579,(C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1:0.1886513098,(G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1:0.2565759251,S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1:0.3340247176)56:0.0649724031)94:0.0974356040)99:0.1646290607)66:0.3339667281,((G.aculeatus_zgc_113516_ethanolamine_kinase_1:0.2466204071,S.salar_zgc_113516_uncharacterized_protein_LOC100196783:0.2387777468)100:0.4500546525,((((E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3:0.3220394051,H.sapiens_CHKB_cholineethanolamine_kinase:0.0696171419)97:0.0240980257,F.catus_CHKB_cholineethanolamine_kinase_isoform_X2:0.0289288952)100:0.4460519224,(((((((H.sapiens_CHKA_choline_kinase_alpha_isoform_b:0.0720884872,(E.caballus_CHKA_choline_kinase_alpha_isoform_X4:0.1270786147,F.catus_CHKA_choline_kinase_alpha_isoform_X8:0.1067491052)100:0.0892200950)100:0.1554082687,((C.mydas_CHKA_choline_kinase_alpha:0.0699426169,G.gallus_CHKA_choline_kinase_alpha_isoform_X4:0.1353901289)90:0.0402998810,S.townsendi_CHKA_choline_kinase_alpha:0.1225386430)99:0.0487421863)100:0.1297256659,X.laevis_chka.L_choline_kinase_alpha:0.2792786045)98:0.1155634084,(C.carcharias_chka_choline_kinase_alpha_isoform_X1:0.3649714001,(G.aculeatus_chka_choline_kinase_alpha:0.2950951804,(D.rerio_chka_choline_kinase_alpha_isoform_X1:0.1762230762,(S.salar_chka_choline_kinase_alpha_isoform_X1:0.0292959141,S.salar_LOC106560813_choline_kinase_alpha_isoform_X2:0.0381400590)100:0.0616395426)84:0.0457432766)100:0.1435237332)74:0.0218603126)100:0.3704945653,(D.rerio_chkb_cholineethanolamine_kinase:0.2093014108,(G.aculeatus_chkb_cholineethanolamine_kinase:0.2886264263,(S.salar_LOC123728132_cholineethanolamine_kinaselike:0.0000025775,S.salar_LOC106561237_cholineethanolamine_kinase:0.0000025775)100:0.1997734595)98:0.0557547552)100:0.1956730964)78:0.0696537050,C.carcharias_chkb_cholineethanolamine_kinase:0.2612247958)95:0.1644446819,(C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1:0.1362576706,S.townsendi_CHKB_cholineethanolamine_kinase:0.2463834770)88:0.0799402454)87:0.1742232798)95:0.4271880159,(X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2:0.1204426770,X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2:0.0492392292)70:0.0903017677)100:3.3774500410)44:0.1179016781);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -20561.109985
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----C.carcharias_LOC121282821_ethanolamine_kinase_1like
+|
+|           +----C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1
+|        +--| (79)
+|        |  |        +--S.salar_LOC106583121_ethanolamine_kinase_1like
+|        |  |     +--| (99)
+|        |  |     |  +--S.salar_LOC106565623_ethanolamine_kinase_1like
+|        |  |  +--| (95)
+|        |  |  |  +--G.aculeatus_etnk2_ethanolamine_kinase_2
+|        |  +--| (97)
+|        |     +--D.rerio_etnk2_ethanolamine_kinase_2
+|     +--| (64)
+|     |  |           +--X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1
+|     |  |        +--| (100)
+|     |  |        |  +--X.laevis_etnk1.S_ethanolamine_kinase_1
+|     |  |     +--| (100)
+|     |  |     |  |              +--H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A
+|     |  |     |  |           +--| (99)
+|     |  |     |  |           |  +--F.catus_ETNK1_ethanolamine_kinase_1
+|     |  |     |  |        +--| (100)
+|     |  |     |  |        |  +--E.caballus_ETNK1_ethanolamine_kinase_1
+|     |  |     |  |     +--| (55)
+|     |  |     |  |     |  +--C.mydas_ETNK1_ethanolamine_kinase_1
+|     |  |     |  |  +--| (54)
+|     |  |     |  |  |  +--G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1
+|     |  |     |  +--| (91)
+|     |  |     |     +--S.townsendi_ETNK1_ethanolamine_kinase_1
+|     |  |  +--| (94)
+|     |  |  |  |        +--S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3
+|     |  |  |  |     +--| (100)
+|     |  |  |  |     |  +--S.salar_LOC106609326_ethanolamine_kinase_1
+|     |  |  |  |  +--| (100)
+|     |  |  |  |  |  +--G.aculeatus_etnk1_ethanolamine_kinase_1
+|     |  |  |  +--| (99)
+|     |  |  |     +--D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1
+|     |  +--| (93)
+|     |     +--C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2
+|  +--| (66)
+|  |  |     +--E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2
+|  |  |  +--| (100)
+|  |  |  |  +--F.catus_ETNK2_ethanolamine_kinase_2
+|  |  +--| (99)
+|  |     |  +--C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1
+|  |     +--| (94)
+|  |        |  +--G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1
+|  |        +--| (56)
+|  |           +--S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1
++--| (56)
+|  |                                                +--E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3
+|  |                                             +--| (97)
+|  |                                             |  +--H.sapiens_CHKB_cholineethanolamine_kinase
+|  |                                        +----| (100)
+|  |                                        |    +--F.catus_CHKB_cholineethanolamine_kinase_isoform_X2
+|  |                                    +---| (95)
+|  |                                    |   |                     +--H.sapiens_CHKA_choline_kinase_alpha_isoform_b
+|  |                                    |   |                  +--| (100)
+|  |                                    |   |                  |  |  +--E.caballus_CHKA_choline_kinase_alpha_isoform_X4
+|  |                                    |   |                  |  +--| (100)
+|  |                                    |   |                  |     +--F.catus_CHKA_choline_kinase_alpha_isoform_X8
+|  |                                    |   |               +--| (100)
+|  |                                    |   |               |  |     +--C.mydas_CHKA_choline_kinase_alpha
+|  |                                    |   |               |  |  +--| (90)
+|  |                                    |   |               |  |  |  +--G.gallus_CHKA_choline_kinase_alpha_isoform_X4
+|  |                                    |   |               |  +--| (99)
+|  |                                    |   |               |     +--S.townsendi_CHKA_choline_kinase_alpha
+|  |                                    |   |            +--| (98)
+|  |                                    |   |            |  +--X.laevis_chka.L_choline_kinase_alpha
+|  |                                    |   |        +---| (100)
+|  |                                    |   |        |   |  +---C.carcharias_chka_choline_kinase_alpha_isoform_X1
+|  |                                    |   |        |   +--| (74)
+|  |                                    |   |        |      |  +--G.aculeatus_chka_choline_kinase_alpha
+|  |                                    |   |        |      +--| (100)
+|  |                                    |   |        |         |  +--D.rerio_chka_choline_kinase_alpha_isoform_X1
+|  |                                    |   |        |         +--| (84)
+|  |                                    |   |        |            |  +--S.salar_chka_choline_kinase_alpha_isoform_X1
+|  |                                    |   |        |            +--| (100)
+|  |                                    |   |        |               +--S.salar_LOC106560813_choline_kinase_alpha_isoform_X2
+|  |                                    |   |     +--| (78)
+|  |                                    |   |     |  |  +--D.rerio_chkb_cholineethanolamine_kinase
+|  |                                    |   |     |  +--| (100)
+|  |                                    |   |     |     |  +--G.aculeatus_chkb_cholineethanolamine_kinase
+|  |                                    |   |     |     +--| (98)
+|  |                                    |   |     |        |  +--S.salar_LOC123728132_cholineethanolamine_kinaselike
+|  |                                    |   |     |        +--| (100)
+|  |                                    |   |     |           +--S.salar_LOC106561237_cholineethanolamine_kinase
+|  |                                    |   |  +--| (95)
+|  |                                    |   |  |  +--C.carcharias_chkb_cholineethanolamine_kinase
+|  |                                    |   +--| (87)
+|  |                                    |      |  +--C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1
+|  |                                    |      +--| (88)
+|  |                                    |         +--S.townsendi_CHKB_cholineethanolamine_kinase
+|  +------------------------------------| (100)
+|                                       |  +--X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2
+|                                       +--| (70)
+|                                          +--X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2
+|
+|     +--G.aculeatus_zgc_113516_ethanolamine_kinase_1
++-----| (100)
+      +--S.salar_zgc_113516_uncharacterized_protein_LOC100196783
+
+
+Consensus tree in newick format: 
+
+(C.carcharias_LOC121282821_ethanolamine_kinase_1like:0.5255937581,((((C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1:0.4470250767,(((S.salar_LOC106583121_ethanolamine_kinase_1like:0.0362801454,S.salar_LOC106565623_ethanolamine_kinase_1like:0.0156773803)99:0.0386401764,G.aculeatus_etnk2_ethanolamine_kinase_2:0.1041072378)95:0.0265626928,D.rerio_etnk2_ethanolamine_kinase_2:0.0762995238)97:0.1468898693)79:0.1251246206,((((X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1:0.0477974816,X.laevis_etnk1.S_ethanolamine_kinase_1:0.0438734894)100:0.1556505007,(((((H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A:0.0207081614,F.catus_ETNK1_ethanolamine_kinase_1:0.0103856379)99:0.0060023310,E.caballus_ETNK1_ethanolamine_kinase_1:0.0042821149)100:0.1098969817,C.mydas_ETNK1_ethanolamine_kinase_1:0.0317180589)55:0.0130721330,G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1:0.0666349624)54:0.0159376259,S.townsendi_ETNK1_ethanolamine_kinase_1:0.1055816392)91:0.0507629753)100:0.1557346521,(((S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3:0.0111162728,S.salar_LOC106609326_ethanolamine_kinase_1:0.0000024499)100:0.0733666741,G.aculeatus_etnk1_ethanolamine_kinase_1:0.1069970564)100:0.1205374223,D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1:0.1245950184)99:0.1974214052)94:0.0510385457,C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2:0.2764641804)93:0.1154365096)64:0.0748903764,((E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2:0.0404314374,F.catus_ETNK2_ethanolamine_kinase_2:0.0631195215)100:0.2819836268,(C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1:0.1886440848,(G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1:0.2573213914,S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1:0.3339491611)56:0.0659355928)94:0.0976508301)99:0.1672955270)66:0.1703159117,((((E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3:0.3224031449,H.sapiens_CHKB_cholineethanolamine_kinase:0.0696649302)97:0.0241101329,F.catus_CHKB_cholineethanolamine_kinase_isoform_X2:0.0290002292)100:0.4478040343,(((((((H.sapiens_CHKA_choline_kinase_alpha_isoform_b:0.0721461207,(E.caballus_CHKA_choline_kinase_alpha_isoform_X4:0.1272418961,F.catus_CHKA_choline_kinase_alpha_isoform_X8:0.1068323928)100:0.0893349058)100:0.1555988155,((C.mydas_CHKA_choline_kinase_alpha:0.0699976345,G.gallus_CHKA_choline_kinase_alpha_isoform_X4:0.1355004194)90:0.0403415428,S.townsendi_CHKA_choline_kinase_alpha:0.1226513674)99:0.0487512269)100:0.1298718057,X.laevis_chka.L_choline_kinase_alpha:0.2795623241)98:0.1155659631,(C.carcharias_chka_choline_kinase_alpha_isoform_X1:0.3654253032,(G.aculeatus_chka_choline_kinase_alpha:0.2954917588,(D.rerio_chka_choline_kinase_alpha_isoform_X1:0.1764257981,(S.salar_chka_choline_kinase_alpha_isoform_X1:0.0293254758,S.salar_LOC106560813_choline_kinase_alpha_isoform_X2:0.0381701622)100:0.0616835963)84:0.0457070532)100:0.1436634261)74:0.0220391786)100:0.3709781624,(D.rerio_chkb_cholineethanolamine_kinase:0.2091985606,(G.aculeatus_chkb_cholineethanolamine_kinase:0.2891432832,(S.salar_LOC123728132_cholineethanolamine_kinaselike:0.0000024480,S.salar_LOC106561237_cholineethanolamine_kinase:0.0000024480)100:0.1999857001)98:0.0559847778)100:0.1959533835)78:0.0694432670,C.carcharias_chkb_cholineethanolamine_kinase:0.2618518305)95:0.1645767626,(C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1:0.1367615776,S.townsendi_CHKB_cholineethanolamine_kinase:0.2462354124)88:0.0800856132)87:0.1714991213)95:0.3653952968,(X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2:0.1208938829,X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2:0.0489173320)70:0.1545103640)100:3.3390639188)56:0.1905502688,(G.aculeatus_zgc_113516_ethanolamine_kinase_1:0.2455154023,S.salar_zgc_113516_uncharacterized_protein_LOC100196783:0.2405271048)100:0.5545719198);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas.treefile -m "JTT+I{0.0549398}+G4{1.31588}" --length 1348
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /home/bio312-user/lab05-s3-ychintawar/CKA/CKA.homologsf.al.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 26 19:00:07 2024
+Total CPU time used: 765.314503 seconds (0h:12m:45s)
+Total wall-clock time used: 388.9378475 seconds (0h:6m:28s)
+

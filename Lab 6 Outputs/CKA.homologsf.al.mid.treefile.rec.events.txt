@@ -1,0 +1,87 @@
+COST: 80.5
+
+
+Duplications
+Gene                L. Bound            U. Bound            
+=================== =================== =================== 
+n141                Gnathostomata       N/A
+n89                 Gnathostomata       N/A
+n85                 Gnathostomata       N/A
+n47                 Boreoeutheria       Amniota
+n84                 Gnathostomata       N/A
+n80                 Gnathostomata       N/A
+n78                 Gnathostomata       N/A
+n70                 Gnathostomata       N/A
+n67                 Clupeocephala       Euteleostomi
+n63                 S.salar             Euteleosteomorpha
+n73                 S.salar             Euteleosteomorpha
+n88                 X.laevis            Tetrapoda
+n140                Gnathostomata       N/A
+n136                Gnathostomata       N/A
+n134                Gnathostomata       N/A
+n124                Gnathostomata       N/A
+n92                 S.salar             Euteleosteomorpha
+n101                X.laevis            Tetrapoda
+n112                Amniota             Tetrapoda
+n110                Amniota             Tetrapoda
+n106                Boreoeutheria       Amniota
+n116                S.salar             Euteleosteomorpha
+n132                Sauria              Amniota
+Duplications: 23 
+
+
+Losses
+Species             No. of Losses  
+=================== ============== 
+Boreoeutheria       3
+H.sapiens           3
+S.townsendi         3
+S.salar             1
+Euteleostomi        2
+G.gallus            3
+C.carcharias        7
+D.rerio             2
+Clupeocephala       5
+Tetrapoda           4
+C.mydas             2
+X.laevis            3
+Gnathostomata       0
+F.catus             2
+Laurasiatheria      0
+Amniota             1
+G.aculeatus         1
+Euteleosteomorpha   0
+Archelosauria       1
+E.caballus          2
+Sauria              1
+
+Losses: 46
+
+
+Species             Duplications   cD_Nodes       Transfers_from Transfers_to   Losses         
+=================== ============== ============== ============== ============== ============== 
+Boreoeutheria       2              0              0              0              3              
+H.sapiens           0              0              0              0              3              
+S.townsendi         0              0              0              0              3              
+S.salar             4              0              0              0              1              
+Euteleostomi        0              0              0              0              2              
+G.gallus            0              0              0              0              3              
+C.carcharias        0              0              0              0              7              
+D.rerio             0              0              0              0              2              
+Clupeocephala       1              0              0              0              5              
+Tetrapoda           0              0              0              0              4              
+C.mydas             0              0              0              0              2              
+X.laevis            2              0              0              0              3              
+Gnathostomata       11             0              0              0              0              
+F.catus             0              0              0              0              2              
+Laurasiatheria      0              0              0              0              0              
+Amniota             2              0              0              0              1              
+G.aculeatus         0              0              0              0              1              
+Euteleosteomorpha   0              0              0              0              0              
+Archelosauria       0              0              0              0              1              
+E.caballus          0              0              0              0              2              
+Sauria              1              0              0              0              1              
+
+Duplications: 23
+Losses: 46
+

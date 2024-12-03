@@ -1,0 +1,1601 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Gnathostomata</name>
+        <clade>
+          <name>Euteleostomi</name>
+          <clade>
+            <name>Tetrapoda</name>
+            <clade>
+              <name>Amniota</name>
+              <clade>
+                <name>Boreoeutheria</name>
+                <clade>
+                  <name>Laurasiatheria</name>
+                  <clade>
+                    <name>E.caballus</name>
+                  </clade>
+                  <clade>
+                    <name>F.catus</name>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>H.sapiens</name>
+                </clade>
+              </clade>
+              <clade>
+                <name>Sauria</name>
+                <clade>
+                  <name>Archelosauria</name>
+                  <clade>
+                    <name>G.gallus</name>
+                  </clade>
+                  <clade>
+                    <name>C.mydas</name>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>S.townsendi</name>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>X.laevis</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Clupeocephala</name>
+            <clade>
+              <name>Euteleosteomorpha</name>
+              <clade>
+                <name>G.aculeatus</name>
+              </clade>
+              <clade>
+                <name>S.salar</name>
+              </clade>
+            </clade>
+            <clade>
+              <name>D.rerio</name>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>C.carcharias</name>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n141</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <duplication speciesLocation="Gnathostomata"></duplication>
+        </eventsRec>
+        <clade>
+          <name>n89</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.33770458965</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Gnathostomata"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n85</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.4271880159</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Gnathostomata"></duplication>
+            </eventsRec>
+            <clade>
+              <name>r113</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Gnathostomata"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r111</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Euteleostomi"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r109</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Tetrapoda"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r107</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Amniota"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n47</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.4460519224</branch_length>
+                      <eventsRec>
+                        <duplication speciesLocation="Boreoeutheria"></duplication>
+                      </eventsRec>
+                      <clade>
+                        <name>n45</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0240980257</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Boreoeutheria"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>H.sapiens_CHKB_cholineethanolamine_kinase</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0696171419</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="H.sapiens" geneName="H.sapiens_CHKB_cholineethanolamine_kinase"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>r101</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Laurasiatheria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.3220394051</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="E.caballus" geneName="E.caballus_CHKB_cholineethanolamine_kinase_isoform_X3"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>F.catus*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="F.catus"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>r105</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Boreoeutheria"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r103</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Laurasiatheria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>F.catus_CHKB_cholineethanolamine_kinase_isoform_X2</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0289288952</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="F.catus" geneName="F.catus_CHKB_cholineethanolamine_kinase_isoform_X2"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>E.caballus*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="E.caballus"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>H.sapiens*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="H.sapiens"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Sauria*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Sauria"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>X.laevis*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="X.laevis"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Clupeocephala*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Clupeocephala"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>C.carcharias*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="C.carcharias"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>n84</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.1742232798</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Gnathostomata"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n80</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.1644446819</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Gnathostomata"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n78</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.069653705</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Gnathostomata"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>n70</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.3704945653</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Gnathostomata"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>r117</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Gnathostomata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r115</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleostomi"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n60</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.1155634084</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Tetrapoda"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n58</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.1297256659</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Amniota"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>n52</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1554082687</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Boreoeutheria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>n50</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.089220095</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Laurasiatheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>F.catus_CHKA_choline_kinase_alpha_isoform_X8</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.1067491052</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="F.catus" geneName="F.catus_CHKA_choline_kinase_alpha_isoform_X8"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>E.caballus_CHKA_choline_kinase_alpha_isoform_X4</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.1270786147</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="E.caballus" geneName="E.caballus_CHKA_choline_kinase_alpha_isoform_X4"></leaf>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>H.sapiens_CHKA_choline_kinase_alpha_isoform_b</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0720884872</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="H.sapiens" geneName="H.sapiens_CHKA_choline_kinase_alpha_isoform_b"></leaf>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>n57</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0487421863</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Sauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>n55</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.040299881</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Archelosauria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>G.gallus_CHKA_choline_kinase_alpha_isoform_X4</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.1353901289</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="G.gallus" geneName="G.gallus_CHKA_choline_kinase_alpha_isoform_X4"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>C.mydas_CHKA_choline_kinase_alpha</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0699426169</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="C.mydas" geneName="C.mydas_CHKA_choline_kinase_alpha"></leaf>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>S.townsendi_CHKA_choline_kinase_alpha</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.122538643</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="S.townsendi" geneName="S.townsendi_CHKA_choline_kinase_alpha"></leaf>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>X.laevis_chka.L_choline_kinase_alpha</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.2792786045</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="X.laevis" geneName="X.laevis_chka.L_choline_kinase_alpha"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Clupeocephala*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Clupeocephala"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>C.carcharias*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="C.carcharias"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>n69</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0218603126</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Gnathostomata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r125</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleostomi"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n67</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.1435237332</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="Clupeocephala"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>n65</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0457432766</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Clupeocephala"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>r119</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>n63</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0616395426</branch_length>
+                                <eventsRec>
+                                  <duplication speciesLocation="S.salar"></duplication>
+                                </eventsRec>
+                                <clade>
+                                  <name>S.salar_LOC106560813_choline_kinase_alpha_isoform_X2</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.038140059</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="S.salar" geneName="S.salar_LOC106560813_choline_kinase_alpha_isoform_X2"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>S.salar_chka_choline_kinase_alpha_isoform_X1</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0292959141</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="S.salar" geneName="S.salar_chka_choline_kinase_alpha_isoform_X1"></leaf>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>G.aculeatus*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="G.aculeatus"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>D.rerio_chka_choline_kinase_alpha_isoform_X1</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1762230762</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="D.rerio" geneName="D.rerio_chka_choline_kinase_alpha_isoform_X1"></leaf>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>r123</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Clupeocephala"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>r121</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>G.aculeatus_chka_choline_kinase_alpha</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.2950951804</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_chka_choline_kinase_alpha"></leaf>
+                                </eventsRec>
+                              </clade>
+                              <clade>
+                                <name>S.salar*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="S.salar"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>D.rerio*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="D.rerio"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Tetrapoda*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Tetrapoda"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>C.carcharias_chka_choline_kinase_alpha_isoform_X1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.3649714001</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="C.carcharias" geneName="C.carcharias_chka_choline_kinase_alpha_isoform_X1"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>r129</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Gnathostomata"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r127</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Euteleostomi"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n77</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1956730964</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Clupeocephala"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n75</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0557547552</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n73</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.1997734595</branch_length>
+                            <eventsRec>
+                              <duplication speciesLocation="S.salar"></duplication>
+                            </eventsRec>
+                            <clade>
+                              <name>S.salar_LOC106561237_cholineethanolamine_kinase</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>2.5775e-06</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="S.salar" geneName="S.salar_LOC106561237_cholineethanolamine_kinase"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>S.salar_LOC123728132_cholineethanolamine_kinaselike</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>2.5775e-06</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="S.salar" geneName="S.salar_LOC123728132_cholineethanolamine_kinaselike"></leaf>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>G.aculeatus_chkb_cholineethanolamine_kinase</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.2886264263</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_chkb_cholineethanolamine_kinase"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>D.rerio_chkb_cholineethanolamine_kinase</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.2093014108</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="D.rerio" geneName="D.rerio_chkb_cholineethanolamine_kinase"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Tetrapoda*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Tetrapoda"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>C.carcharias*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="C.carcharias"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>r131</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Gnathostomata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>C.carcharias_chkb_cholineethanolamine_kinase</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.2612247958</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="C.carcharias" geneName="C.carcharias_chkb_cholineethanolamine_kinase"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>Euteleostomi*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Euteleostomi"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r141</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r139</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r137</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Tetrapoda"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r135</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Amniota"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n83</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0799402454</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Sauria"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>S.townsendi_CHKB_cholineethanolamine_kinase</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.246383477</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="S.townsendi" geneName="S.townsendi_CHKB_cholineethanolamine_kinase"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>r133</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Archelosauria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.1362576706</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="C.mydas" geneName="C.mydas_CHKB_cholineethanolamine_kinase_isoform_X1"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>G.gallus*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="G.gallus"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Boreoeutheria*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Boreoeutheria"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>X.laevis*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="X.laevis"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Clupeocephala*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Clupeocephala"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="C.carcharias"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r147</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Gnathostomata"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r145</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Euteleostomi"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r143</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Tetrapoda"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>n88</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0903017677</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="X.laevis"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0492392292</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="X.laevis" geneName="X.laevis_chkb.L_cholineethanolamine_kinase_isoform_X2"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.120442677</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="X.laevis" geneName="X.laevis_chkb.S_cholineethanolamine_kinase_isoform_X2"></leaf>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Amniota*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Amniota"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Clupeocephala*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Clupeocephala"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>C.carcharias*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="C.carcharias"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>n140</name>
+          <confidence>1.0</confidence>
+          <branch_length>2.03974545135</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Gnathostomata"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n136</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.1179016781</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Gnathostomata"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n134</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.3339667281</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Gnathostomata"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n124</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0781341368</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Gnathostomata"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n98</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.1244679148</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Gnathostomata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r149</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Euteleostomi"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n96</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1466166236</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Clupeocephala"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n94</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0265569903</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n92</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0386067086</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="S.salar"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>S.salar_LOC106565623_ethanolamine_kinase_1like</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0156717432</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106565623_ethanolamine_kinase_1like"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>S.salar_LOC106583121_ethanolamine_kinase_1like</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0362262441</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106583121_ethanolamine_kinase_1like"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>G.aculeatus_etnk2_ethanolamine_kinase_2</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.103956791</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_etnk2_ethanolamine_kinase_2"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>D.rerio_etnk2_ethanolamine_kinase_2</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0761896809</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="D.rerio" geneName="D.rerio_etnk2_ethanolamine_kinase_2"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Tetrapoda*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Tetrapoda"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.4466411734</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="C.carcharias" geneName="C.carcharias_LOC121282038_ethanolamine_kinase_1like_isoform_X1"></leaf>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>n123</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.1150382059</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Gnathostomata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>n121</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0513830529</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Euteleostomi"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n113</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1554714856</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Tetrapoda"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n101</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.155323698</branch_length>
+                        <eventsRec>
+                          <duplication speciesLocation="X.laevis"></duplication>
+                        </eventsRec>
+                        <clade>
+                          <name>X.laevis_etnk1.S_ethanolamine_kinase_1</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0437693439</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="X.laevis" geneName="X.laevis_etnk1.S_ethanolamine_kinase_1"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.04777895</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="X.laevis" geneName="X.laevis_etnk1.L_ethanolamine_kinase_1_isoform_X1"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>n112</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0507736566</branch_length>
+                        <eventsRec>
+                          <duplication speciesLocation="Amniota"></duplication>
+                        </eventsRec>
+                        <clade>
+                          <name>n110</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0159104896</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="Amniota"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>n108</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0130400239</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Amniota"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>n106</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1097409175</branch_length>
+                              <eventsRec>
+                                <duplication speciesLocation="Boreoeutheria"></duplication>
+                              </eventsRec>
+                              <clade>
+                                <name>n104</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0059962044</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Boreoeutheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>r151</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <speciation speciesLocation="Laurasiatheria"></speciation>
+                                  </eventsRec>
+                                  <clade>
+                                    <name>F.catus_ETNK1_ethanolamine_kinase_1</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>0.010371343</branch_length>
+                                    <eventsRec>
+                                      <leaf speciesLocation="F.catus" geneName="F.catus_ETNK1_ethanolamine_kinase_1"></leaf>
+                                    </eventsRec>
+                                  </clade>
+                                  <clade>
+                                    <name>E.caballus*LOST</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>1.0</branch_length>
+                                    <eventsRec>
+                                      <loss speciesLocation="E.caballus"></loss>
+                                    </eventsRec>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0206785585</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="H.sapiens" geneName="H.sapiens_ETNK1_ethanolamine_kinase_1_isoform_A"></leaf>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>r155</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Boreoeutheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>r153</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <speciation speciesLocation="Laurasiatheria"></speciation>
+                                  </eventsRec>
+                                  <clade>
+                                    <name>E.caballus_ETNK1_ethanolamine_kinase_1</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>0.0042735489</branch_length>
+                                    <eventsRec>
+                                      <leaf speciesLocation="E.caballus" geneName="E.caballus_ETNK1_ethanolamine_kinase_1"></leaf>
+                                    </eventsRec>
+                                  </clade>
+                                  <clade>
+                                    <name>F.catus*LOST</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>1.0</branch_length>
+                                    <eventsRec>
+                                      <loss speciesLocation="F.catus"></loss>
+                                    </eventsRec>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>H.sapiens*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="H.sapiens"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>r159</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Sauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>r157</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Archelosauria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>C.mydas_ETNK1_ethanolamine_kinase_1</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0316699646</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="C.mydas" geneName="C.mydas_ETNK1_ethanolamine_kinase_1"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>G.gallus*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="G.gallus"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>S.townsendi*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="S.townsendi"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>r165</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Amniota"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>r163</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Sauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>r161</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Archelosauria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0665515572</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="G.gallus" geneName="G.gallus_ETNK1_ethanolamine_kinase_1_isoform_X1"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>C.mydas*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="C.mydas"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>S.townsendi*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="S.townsendi"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Boreoeutheria*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="Boreoeutheria"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>r169</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Amniota"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r167</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Sauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>S.townsendi_ETNK1_ethanolamine_kinase_1</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1054252568</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="S.townsendi" geneName="S.townsendi_ETNK1_ethanolamine_kinase_1"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>Archelosauria*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="Archelosauria"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Boreoeutheria*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Boreoeutheria"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>n120</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1972569674</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Clupeocephala"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n118</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1204123505</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n116</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0732419253</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="S.salar"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>S.salar_LOC106609326_ethanolamine_kinase_1</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>2.6256e-06</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106609326_ethanolamine_kinase_1"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0111016535</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106576151_ethanolamine_kinase_1like_isoform_X3"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>G.aculeatus_etnk1_ethanolamine_kinase_1</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.1068663192</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_etnk1_ethanolamine_kinase_1"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1243504238</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="D.rerio" geneName="D.rerio_etnk1_ethanolamine_kinase_1_isoform_X1"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.2759496323</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="C.carcharias" geneName="C.carcharias_etnk1_ethanolamine_kinase_1_isoform_X2"></leaf>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r183</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r181</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r179</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Tetrapoda"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n133</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1646290607</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Amniota"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r171</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Boreoeutheria"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n127</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.2819550579</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Laurasiatheria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>F.catus_ETNK2_ethanolamine_kinase_2</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0631388688</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="F.catus" geneName="F.catus_ETNK2_ethanolamine_kinase_2"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.04031698</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="E.caballus" geneName="E.caballus_ETNK2_ethanolamine_kinase_2_isoform_X2"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>H.sapiens*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="H.sapiens"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>n132</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.097435604</branch_length>
+                        <eventsRec>
+                          <duplication speciesLocation="Sauria"></duplication>
+                        </eventsRec>
+                        <clade>
+                          <name>n130</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0649724031</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Sauria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.3340247176</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.townsendi" geneName="S.townsendi_ETNK2_ethanolamine_kinase_2_isoform_X1"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>r173</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Archelosauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.2565759251</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="G.gallus" geneName="G.gallus_ETNK2_ethanolamine_kinase_2_isoform_X1"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>C.mydas*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="C.mydas"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>r177</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Sauria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r175</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Archelosauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1886513098</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="C.mydas" geneName="C.mydas_ETNK2_ethanolamine_kinase_2_isoform_X1"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>G.gallus*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="G.gallus"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>S.townsendi*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="S.townsendi"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>X.laevis*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="X.laevis"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Clupeocephala*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Clupeocephala"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="C.carcharias"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>r185</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Gnathostomata"></speciation>
+              </eventsRec>
+              <clade>
+                <name>C.carcharias_LOC121282821_ethanolamine_kinase_1like</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.53944262</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="C.carcharias" geneName="C.carcharias_LOC121282821_ethanolamine_kinase_1like"></leaf>
+                </eventsRec>
+              </clade>
+              <clade>
+                <name>Euteleostomi*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Euteleostomi"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r191</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Gnathostomata"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r189</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Euteleostomi"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r187</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Clupeocephala"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>n139</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.4500546525</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>S.salar_zgc_113516_uncharacterized_protein_LOC100196783</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.2387777468</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="S.salar" geneName="S.salar_zgc_113516_uncharacterized_protein_LOC100196783"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>G.aculeatus_zgc_113516_ethanolamine_kinase_1</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.2466204071</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_zgc_113516_ethanolamine_kinase_1"></leaf>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>D.rerio*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="D.rerio"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Tetrapoda*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Tetrapoda"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>C.carcharias*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="C.carcharias"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>
