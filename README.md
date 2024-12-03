@@ -1,5 +1,5 @@
 # CHKA Gene Family Repository
-# Welcome to the CHKA Gene Family Repository. This repository is dedicated to the analysis of the CHKA gene family, which plays a critical role in phospholipid metabolism and has implications in neurodevelopmental disorders and cancer.
+# Welcome to my CHKA Gene Family Repository. This repository is being utilized as storage for the analysis of the CHKA gene family, which plays a critical role in phospholipid metabolism and has implications in neurodevelopmental disorders and cancer.
 
 # Lab Overview and Aims:
 # - **Lab 3: Homolog Identification Using BLAST**
